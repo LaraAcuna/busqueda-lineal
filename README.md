@@ -27,6 +27,8 @@ Iniciará en la url [http://localhost:3000](http://localhost:3000)
 * El funcionamiento correcto de Simulated Annealing aún debe ser corroborado
 * Falta tratar algunos casos del dominio: Ej: Limite superior == Limite inferior, arrojará un error.
 
+Recordar que fue una implementación que surgió en base a un trabajo académico y no esta exento de fallas, por lo tanto, usarlo con discreción.
+
 ## Futuros (posibles) Milestones
 
 * Hacer un Frontend mas presentable
@@ -38,5 +40,6 @@ Iniciará en la url [http://localhost:3000](http://localhost:3000)
 
 ## Licencia
 
-Se permite el uso y modificación de este código para fines personales y académicos. 
-Recordar que fue una implementación que surgió en base a un trabajo académico y no esta exento de fallas, por lo tanto, usarlo con discreción.
+Trabajo Realizado por Lara Acuña
+Esta obra se encuentra bajo la licencia GNU Affero Public License versión 3 (AGPLv3).
+Además, se exige que ante la realización de una copia se incluya la obra original, el nombre de la y los autores y un enlace al sitio Web donde se obtuvo, a saber: https://github.com/laraacuña/busqueda-lineal
