@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Búsqueda Lineal 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Resumen
+Este repósitorio contiene código para experimentar la aplicación de distintas búsquedas lineales, particularmente Hill Climbing (variante clásica) y Simulated Annealing.
+Se pueden probar dos funciones correspondientes a un trabajo práctica de la materia _**Sistemas Inteligentes, del Quinto Año de la Carrera LSI/LCC de la Universidad Nacional del Comahue**_
 
-## Available Scripts
 
-In the project directory, you can run:
+## Detalles de Implementación y Cómo ejecutarlo
+
+Se realizó con JavaScript y React para el frontend.
+Si se desea clonar y probar, seguir las siguientes instrucciones:
+
+Para la instalación de las dependencias, en el directorio del proyecto usar el comando en la terminal:
+
+### `npm install`
+
+Para ejecutarlo, en el directorio del proyecto usar el comando en la terminal:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Iniciará en la url [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Detalles a tener en cuenta
 
-### `npm test`
+* El frontend esta muy verde porque la prioridad era el funcionamiento de la lógica
+* Por como funcionan la suma, multiplicación, división, etcs de flotantes, el "paso" más chico de las ecuaciones es de 0.5
+* El funcionamiento correcto de Simulated Annealing aún debe ser corroborado
+* Falta tratar algunos casos del dominio: Ej: Limite superior == Limite inferior, arrojará un error.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Futuros (posibles) Milestones
 
-### `npm run build`
+* Hacer un Frontend mas presentable
+* Limpiar código
+* Ver cómo achicar el paso en las ecuaciones sin obtener resultador numéricos erroneos
+* Corregir errores en casos particulares a la hora de ingresar dominio
+* Aplicar un parser para que el usuario ingrese su propia función matemática
+* Agregar graficos
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Licencia
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Se permite el uso y modificación de este código para fines personales y académicos. 
+Recordar que fue una implementación que surgió en base a un trabajo académico y no esta exento de fallas, por lo tanto, usarlo con discreción.
