@@ -18,7 +18,7 @@ Para ejecutarlo, en el directorio del proyecto usar el comando en la terminal:
 
 ### `npm start`
 
-Iniciará en la url [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Iniciará en la url [http://localhost:3000](http://localhost:3000)
 
 ## Detalles a tener en cuenta
 
